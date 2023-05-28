@@ -1,2 +1,2 @@
-#!/usr/bin/python3                                                                                                                         
-import this;print(this)
+#!/usr/bin/python3
+exec(__import__('this').s[59:])
