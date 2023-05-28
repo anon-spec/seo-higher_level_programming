@@ -1,2 +1,2 @@
 #!/usr/bin/python3                                                                                                                         
-import this;print(this.s[:-171])
+import this;print(this.s) 
