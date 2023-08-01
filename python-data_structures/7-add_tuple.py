@@ -9,12 +9,12 @@ def add_tuple(tuple_a=(), tuple_b=()):
         a = tuple_a[0]
         b = tuple_a[1]
     if len(tuple_b) == 0:
-        a2, b2 == (0, 0)
+        c, d == (0, 0)
     elif len(tuple_b) == 1:
-        a2 = tuple_b[0]
-        b2 = 0
+        c = tuple_b[0]
+        d = 0
     else:
-        a2 = tuple_b[0]
-        b2 = tuple_b[1]
-    tuple_ab = (a + a2, b + b2)
+        c = tuple_b[0]
+        d = tuple_b[1]
+    tuple_ab = (a + c, b + d)
     return tuple_ab
