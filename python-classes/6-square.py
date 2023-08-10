@@ -44,7 +44,7 @@ class Square:
         """Retrieving private instance attribute"""
         return self.__position
 
-    @size.setter
+    @position.setter
     def position(self, value):
         """Property setter"""
         if len(position) != 2 or type(value) is not tuple or type(value[0]) is not tuple or 
