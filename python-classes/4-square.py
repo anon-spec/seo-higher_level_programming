@@ -12,6 +12,7 @@ class Square:
         """initializing object size"""
         self.size = size
 
+    @size.setter
     def size(self, value):
         """Property setter"""
         if type(value) != int:
