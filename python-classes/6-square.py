@@ -38,14 +38,14 @@ class Square:
             for i in range(self.__size):
                 print(" " * self.__position[0], end="")
                 print("#" * self.__size)
-    
+
     def position(self):
         """Retrieving private instance attribute"""
         return self.__position
-    
+
     def position(self, value):
         """Property setter"""
-        if len(position) != 2:
+        if len(position) != 2 or type(value) is not tuple:
             raise TypeError("position must be a tuple of 2 positive integers")
         else:
             self.__position = value
