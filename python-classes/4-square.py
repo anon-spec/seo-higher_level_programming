@@ -6,7 +6,7 @@ class Square:
     """class Square defined with private attribute size"""
     def size(self):
         """retrieving instance attribute"""
-        return self.size
+        return self.__size
 
     def __init__(self, size=0):
         """initializing object size"""
@@ -16,7 +16,7 @@ class Square:
         """Property setter"""
         if type(value) != int:
             raise TypeError("size must be an integer")
-        if value < 0:
+        elif value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
 
