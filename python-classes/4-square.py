@@ -10,7 +10,7 @@ class Square:
 
     def __init__(self, size=0):
         """initializing object size"""
-        self.size = size
+        self.__size = size
 
     def size(self, value):
         """Property setter"""
