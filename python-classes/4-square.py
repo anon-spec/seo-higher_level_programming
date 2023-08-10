@@ -4,7 +4,6 @@
 
 class Square:
     """class Square defined with private attribute size"""
-    @property
     def size(self):
         """retrieving instance attribute"""
         return self.__size
@@ -12,8 +11,7 @@ class Square:
     def __init__(self, size=0):
         """initializing object size"""
         self.size = size
-    
-    @size.setter
+
     def size(self, value):
         """Property setter"""
         if type(value) != int:
