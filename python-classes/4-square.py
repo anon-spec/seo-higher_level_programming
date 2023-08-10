@@ -4,7 +4,7 @@
 
 class Square:
     """class Square defined with private attribute size"""
-    
+
     @property
     def size(self):
         """retrieving instance attribute"""
@@ -25,4 +25,4 @@ class Square:
 
     def area(self):
         """finding area of a square"""
-        return (size * size)
+        return (self.__size * self.__size)
