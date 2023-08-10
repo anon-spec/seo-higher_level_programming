@@ -6,11 +6,11 @@ class Square:
     """class Square defined with private attribute size"""
     def size(self):
         """retrieving instance attribute"""
-        return self.__size
+        return self.size
 
     def __init__(self, size=0):
         """initializing object size"""
-        self.__size = size
+        self.size = size
 
     def size(self, value):
         """Property setter"""
