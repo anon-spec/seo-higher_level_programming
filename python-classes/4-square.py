@@ -8,9 +8,11 @@ class Square:
         """retrieving instance attribute"""
         return self.__size
     
-    def __init__(self, value):
+    def __init__(self, size=0):
         """initializing object size"""
-        self.__size = value
+        self.__size = size
+    
+    def __init__(self, value):
         if type(value) != int:
             raise TypeError("size must be an integer")
         if value < 0:
