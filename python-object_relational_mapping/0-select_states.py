@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""MODULE DOCSTRING"""
 
 import sys
 import MySQLdb
