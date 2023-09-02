@@ -16,7 +16,7 @@ if __name__ == "__main__":
          WHERE name=%s
          ORDER BY id ASC"""
     cur.execute(cmd, (sys.argv[4],))
-    nStates = cur.fetchall()
+    States = cur.fetchall()
 
     for state in States:
         print(state)
